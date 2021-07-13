@@ -7,7 +7,6 @@ class Todo(
 //    val list: String = "a"
 ) {
     fun getList(): List<Any> {
-//        return listOf(id, title)
-        return listOf("a", "b", "c")
+        return listOf(id, title)
     }
 }
