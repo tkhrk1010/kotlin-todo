@@ -1,8 +1,13 @@
 package todo
 
 class Todo(
-    val list: List<String> = listOf("a", "b", "c")
+    val id: Int,
+    val title: String,
+//    val list: List<String> = listOf("a", "b", "c")
 //    val list: String = "a"
 ) {
-
+    fun getList(): List<Any> {
+//        return listOf(id, title)
+        return listOf("a", "b", "c")
+    }
 }

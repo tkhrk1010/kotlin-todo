@@ -14,7 +14,9 @@ fun HTML.index() {
     }
     body {
         div {
-            + Todo().list.joinToString(separator = " & ")
+            val id: Int = 1
+            val title: String = "title"
+            + Todo(id, title).getList().joinToString(separator = " & ")
         }
     }
 }
